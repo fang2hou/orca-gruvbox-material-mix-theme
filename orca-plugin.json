@@ -1,0 +1,45 @@
+{
+  "manifestVersion": 2,
+  "id": "gruvbox-material-mix-theme",
+  "publisher": "fang2hou",
+  "name": "Gruvbox Material Mix",
+  "version": "2.3.0",
+  "execution": "data",
+  "description": "Gruvbox Material dark and light themes with the Mix foreground palette and Medium background contrast, with uniform panel backgrounds and matching syntax and terminal colors.",
+  "license": "MIT",
+  "repository": "https://github.com/fang2hou/orca-gruvbox-material-mix-theme",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "gruvbox-material-mix-dark",
+        "title": "Gruvbox Material Mix Dark",
+        "path": "themes/gruvbox-material-mix-dark.json"
+      },
+      {
+        "id": "gruvbox-material-mix-light",
+        "title": "Gruvbox Material Mix Light",
+        "path": "themes/gruvbox-material-mix-light.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "gruvbox-material-mix-dark",
+        "title": "Gruvbox Material Mix Dark",
+        "path": "terminal/gruvbox-material-mix-dark.json"
+      },
+      {
+        "id": "gruvbox-material-mix-light",
+        "title": "Gruvbox Material Mix Light",
+        "path": "terminal/gruvbox-material-mix-light.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Gruvbox Material Mix Dark and Light previews of the explorer, editor and terminal, rendered from the theme colors"
+  }
+}
