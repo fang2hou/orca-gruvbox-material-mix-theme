@@ -1,5 +1,16 @@
 # Gruvbox Material Mix
 
+> [!IMPORTANT]
+> This plugin is no longer maintained and this repository is archived. Its successor,
+> [fang2hou/orca-gruvbox-material-theme](https://github.com/fang2hou/orca-gruvbox-material-theme)
+> (`fang2hou.gruvbox-material-theme`), ships this Mix Medium variant as
+> **Gruvbox Material Dark (Medium, Mix)** and **Gruvbox Material Light (Medium, Mix)**, plus every
+> other Gruvbox Material variant:
+>
+> ```sh
+> orca plugin install fang2hou/orca-gruvbox-material-theme
+> ```
+
 An Orca port of [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material)
 with `foreground = 'mix'` and `background = 'medium'`: dark and light application
 themes with matching syntax and terminal colors. Every color is taken from
